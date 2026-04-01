@@ -401,10 +401,22 @@ border-radius: 15px;
 padding: 20px;
 width: 300px;
 transition: 0.3s;
+text-align: center;
 }
 
 .course-card h3 {
 color: #1B5E20;
 margin-bottom: 10px;
 font-size: 24px;
+}
+
+.course-card img {
+width: 60px;        
+height: 60px;
+margin-bottom: 15px;
+border-radius: 50%;   
+display: block;      
+margin-left: auto;  
+margin-right: auto;
+object-fit: contain;
 }
